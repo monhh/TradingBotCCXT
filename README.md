@@ -4,18 +4,12 @@ Un bot de trading simple escrito en Python que utiliza la librería [CCXT](https
 
 El bot calcula una **EMA (Exponenital Moving Average) de 7 periodos** en gráficos de 1 minuto y envía notificaciones nativas en macOS cuando el precio cruza la media móvil.
 
-## Requisitos
-
--   Python 3.9+
--   Una terminal en macOS (para las notificaciones `osascript`)
--   [Git](https://git-scm.com/)
-
 ## Instalación
 
 1.  **Clonar el repositorio:**
 
     ```bash
-    git clone <TU_URL_DEL_REPOSITORIO>
+    git clone https://github.com/monhh/TradingBotCCXT.git
     cd TradingBotCCXT
     ```
 
